@@ -18,7 +18,9 @@ body {
     color: #9C9C9C;
 }
 
-
+img {
+    max-width: 100%;
+}
 
 .container {
     max-width: 1230px;
@@ -144,6 +146,7 @@ body {
 
 .achievement-text__block {
     margin-left: 120px;
+   
 }
 
 .achievement-info__block-item__title {
@@ -285,8 +288,8 @@ body {
 
 }
 
-.main-img{
-    padding: 14px 32px ;
+.main-btn {
+    padding: 14px 32px;
 }
 
 
@@ -394,6 +397,123 @@ body {
 
 
 
-@media screen and (max-width:1170px){
- 
+@media screen and (max-width:1440px) {
+
+    .achievement-text__block {
+        max-width: 150px;
+    }
+
+
+}
+
+@media screen and (max-width:1400px) {
+
+    .product-list-item__list-btn {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width:950px){
+
+.header-nav{
+    display: none;
+}
+
+.achievement-info__block-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.achievement-text__block{
+    max-width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.achievement-text__block:last-child{
+    margin-bottom: 0px
+}
+
+.section-product__main-title{
+    font-size: 28px
+}
+
+.section-primary__title{
+    font-size: 30px;
+}
+
+}
+
+
+
+@media screen and (max-width:650px){
+
+
+
+.section-primary__title{
+    font-size: 23px;
+    max-width: 200px;
+}
+
+}
+
+@media screen and (max-width:600px){
+    
+.primary-flex-wrapper{
+    flex-direction: column;
+}
+
+.section-primary__title{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.section-product__main-title{
+    font-size: 20px;
+}
+
+.section-product__choose-translucent-text{
+    font-size: 14px;
+   
+}
+
+.footer__socials-block{
+    margin-left: 0px auto;
+    margin-bottom: 40px;
+}
+
+.section-primary__contact-block {
+    max-width: 100%;
+}
+
+.footer-flex__wrapper{
+display: flex;
+flex-direction: column;
+}
+
+.product-list-item__list-btn{
+    display: none;
+}
+
+
+}
+
+@media screen and (max-width:400px) {
+    
+
+.section-primary__title{
+    font-size: 18px;
+}
+
+.section-primary__contact-text{
+    font-size: 15px;
+}
+
+.main-btn__btn-white{
+    font-size: 10px;
+}
+
+
+
 }

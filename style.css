@@ -663,6 +663,24 @@ img{
     }
 }
 
+
+@media screen and (max-width:900px){
+
+.person-item{
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.person-item__name{
+    font-size: 9px;
+}
+
+.person-item__job{
+    font-size: 9px
+}
+
+}
+
 @media screen and (max-width:760px) {
 
     .section-product__flex-wraper {
@@ -744,11 +762,11 @@ img{
 
 
     .person-item__name {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .person-item__job {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .small-list__text {
@@ -791,3 +809,26 @@ img{
     }
 
 }
+
+@media screen and (max-width:440px){
+
+.person-item{
+    bottom: 0;
+    max-width: 115px;
+    max-height: 50px
+}
+
+.person-item__name{
+    font-size: 9px;
+}
+
+.person-item__job{
+    font-size: 9px;
+}
+
+.footer__socials-block{
+    display: inline-block ;
+}
+
+}
+
